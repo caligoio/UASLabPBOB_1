@@ -1,7 +1,7 @@
 import java.util.List;
 import java.util.ArrayList;
 
-public class RestaurantSytem {
+public class RestaurantSystem {
     private List<MenuItem> daftarMenu = new ArrayList<>();
     private List<Pegawai> daftarPegawai = new ArrayList<>();
     private List<Pesanan> daftarPesanan = new ArrayList<>();
