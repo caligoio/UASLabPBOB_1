@@ -1,4 +1,4 @@
-# Sistem Manajemen Pesanan Restoran Menggunakan Java
+# Restaurant Order Management System Using Java
 
 ## Requirement: Newest JavaFX and Java JDK 
 
@@ -7,7 +7,7 @@
 javac --module-path "<JavaFX_Path>" --add-modules javafx.controls MainApp.java
 ```
 
-## Compile 
+## Run
 ```bash
 java --module-path "<JavaFX_Path>" --add-modules javafx.controls MainApp
 ```
