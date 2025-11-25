@@ -26,7 +26,7 @@ public class PesananApp extends Application {
         backButton.setOnAction(e -> {
             if (session.getUserType().equals("Customer")) {
                 try {
-                    new MainApp().start(stage);
+                    new CustomerApp().start(stage);
                 } catch (Exception ex) {
                     ex.printStackTrace();
                 }

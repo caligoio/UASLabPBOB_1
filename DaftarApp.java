@@ -71,7 +71,7 @@ public class DaftarApp extends Application {
         });
 
         // Layout navigasi (bawah)
-        VBox navigasi = new VBox(8, daftarButton, backButton);
+        HBox navigasi = new HBox(8, daftarButton, backButton);
         navigasi.setStyle("-fx-alignment: center;");
 
         // Layout utama

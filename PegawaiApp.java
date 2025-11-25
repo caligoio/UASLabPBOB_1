@@ -92,7 +92,7 @@ public class PegawaiApp extends Application {
         root.setStyle("-fx-padding: 20; -fx-alignment: center;");
 
         Scene scene = new Scene(root, 800, 600);
-        stage.setTitle("Interface Pegawai");
+        stage.setTitle("Pegawai Dashboard");
         stage.setScene(scene);
         stage.show();
     }

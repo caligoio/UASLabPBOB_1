@@ -159,7 +159,7 @@ public class LoginApp extends Application {
         });
 
         // Layout navigasi (bawah)
-        VBox navigasi = new VBox(8, loginButton, backButton);
+        HBox navigasi = new HBox(8, loginButton, backButton);
         navigasi.setStyle("-fx-alignment: center;");
 
         // Layout utama

@@ -58,10 +58,20 @@ public class RestaurantSystem {
         tambahMenu(new Makanan("Nasi Goreng", 10000, 1, "Nasi"));
         tambahMenu(new Makanan("Gacoan", 11000, 6, "Mie"));
         tambahMenu(new Makanan("Mie Bangladesh", 15000, 2, "Mie"));
+        tambahMenu(new Makanan("Pecel Lele", 20000, 2, "Nasi"));
+        tambahMenu(new Makanan("Croisant", 23000, 0, "Roti"));
+        tambahMenu(new Makanan("Soto", 15000, 1, "Nasi"));
+        tambahMenu(new Makanan("Bubur Ayam", 15000, 1, "Nasi"));
+        tambahMenu(new Makanan("Martabak", 15000, 0, "Roti"));
 
         tambahMenu(new Minuman("Sanger Pancong", 6000, "kecil", "Panas"));
         tambahMenu(new Minuman("Es Teh", 8000, "Medium", "Dingin"));
-        tambahMenu(new Minuman("Kopi Hitam", 10000, "Kecil", "Panas"));
+        tambahMenu(new Minuman("Kopi Hitam", 5000, "Kecil", "Panas"));
+        tambahMenu(new Minuman("Teh Tarik", 10000, "Medium", "Dingin"));
+        tambahMenu(new Minuman("Matcha", 15000, "Medium", "Dingin"));
+        tambahMenu(new Minuman("Creamy Latte", 20000, "Medium", "Panas"));
+        tambahMenu(new Minuman("Milo", 7000, "Medium", "dingin"));
+        tambahMenu(new Minuman("Nutrisari", 9000, "Besar", "Dingin"));
     }
 
     public void tambahMenu(MenuItem item) {
